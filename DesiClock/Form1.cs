@@ -29,13 +29,23 @@ namespace DesiClock
             
             //this.BackColor=Color.FromArgb(50,70,100); //30,50,80 is camouflaging; to be read from .ini
             
-            //custom by user
+            //top layer image, custom image by user
             Image mainImage = Properties.Resources.DefaultImageBg;
             PictureBox pboxMainImage = new PictureBox();
             pboxMainImage.Width = Width;
             pboxMainImage.Height = Height;
             pboxMainImage.Image = (Image)mainImage;
-            Controls.Add(pboxMainImage);
+            //Controls.Add(pboxMainImage);
+
+            //bottom layer image, custom image by user
+            Image backImage = Properties.Resources.backImage;
+            PictureBox pboxBackImage = new PictureBox();
+            pboxBackImage.Width = Width;
+            pboxBackImage.Height = Height;
+            pboxBackImage.Location = new Point(this.Location.X, this.Location.Y);
+            
+            pboxBackImage.Image = (Image)backImage;
+            Controls.Add(pboxBackImage);
 
             SetTime();
         }
@@ -45,9 +55,10 @@ namespace DesiClock
             //pick system time
             //set variables as per time
             //map variables as per text location
-            //draw rectangles based on variables values, calling DrawRectangle multiple times here.
+            //draw rectangles based on variables values, calling DrawRectangle multiple times here.//picureBox, not rectangles
         }
 
+        /*
         private void DrawRectangle() // to be fixed
         {
             this.Paint += (o, e) => {
@@ -60,7 +71,7 @@ namespace DesiClock
                     g.FillRectangle(solidBrush, 0, 0, 400, 400);
                 }
             };
-        }
+        }*/
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
