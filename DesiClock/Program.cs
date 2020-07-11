@@ -14,6 +14,7 @@ namespace DesiClock
         [STAThread]
         static void Main()
         {
+            Application.SetCompatibleTextRenderingDefault(false);
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

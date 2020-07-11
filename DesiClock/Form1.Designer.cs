@@ -29,9 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            //this.Size = new System.Drawing.Size(600, 700); not getting set as it's a readonly property so manipulate app behavior with ClientSize set to config ini- clock size
+            this.ClientSize = new System.Drawing.Size(500, 500);
+            this.Text = "Desi Clock";
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
         }
 
         #endregion

@@ -1,16 +1,14 @@
-sizeable form
-minimize and cross button on cursor hover
+?(opens github page- https://github.com/PalashBansal/DesiClock)/minimize/cross button on cursor hover
 open form from last position
 draggable form
 hand cursor
 run at startup
-paths should be saved and loaded at startup of application
 clock hover tooltip text- ("dophar ke" + "pone paanch" + "baje hain")
 
 define new layout control to user
-3 layered images (backImage=(56,70,98))
+3 layered images (backImage=rgb(56,70,98))
 time logic
-config_vocab.ini to be filled using gui box creator which scales according to form size
+config_vocab.ini to be filled using gui box creator
 
 application should be supplied as zip of all files in bin-
 exe and dependencies

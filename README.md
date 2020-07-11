@@ -3,6 +3,11 @@ A local style clock using Hindi(Devanagari) language
 
 ## How to Contribute
 
+### 1. If you are a graphic designer-
+Design Background/Foreground/Highlighter Images and put into "assets" folder
+Tip: Application depends on the "transparency" property of images.(Multiple file formats like .png , .bmp and .gif supports this property.)
+
+### 2. If you are a software programmer-
 Open \DesiClock\DesiClock.sln to open project.
 Folders "nonDotNET_artifacts" & "taken_from_linkedin" are not part of the .sln
 
@@ -27,7 +32,7 @@ Application in actual stacks images in following order(transaxial view) also rep
 4. Form(Canvas)
 
 **************************************************************************************
-<img src="layer.png" align="middle" />
+<img src="layers.png" align="middle" />
 **************************************************************************************
 
 Any improvements are highly appreciated ☺
