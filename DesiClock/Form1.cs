@@ -19,7 +19,8 @@ namespace DesiClock
         {
             InitializeComponent();
             ///Initialize form properties
-            this.FormBorderStyle = FormBorderStyle.None;
+            //this.FormBorderStyle = FormBorderStyle.None;
+            this.Text = "Desi Clock";
             this.Icon = Properties.Resources.ico;
             this.StartPosition = FormStartPosition.WindowsDefaultBounds;
 
@@ -46,9 +47,9 @@ namespace DesiClock
                 //fill file
             }
 
-            MessageBox.Show(configFilenameFull);
+            //MessageBox.Show(configFilenameFull);
 
-            MessageBox.Show("wid:" + Width + "hei:" + Height); //initial is 800,450- typical horizontal rectangle
+            //MessageBox.Show("wid:" + Width + "hei:" + Height); //initial is 800,450- typical horizontal rectangle
             //form size to be read by .ini in future version
             Width = FormWidth;
             Height = FormHeight;
@@ -57,21 +58,21 @@ namespace DesiClock
             //this.BackColor=Color.FromArgb(50,70,100); //30,50,80 is camouflaging; to be read from .ini
             
             //top layer image, custom image by user
-            Image mainImage = Properties.Resources.DefaultImageBg;
+            //Image mainImage = Properties.Resources.DefaultImageBg;
             PictureBox pboxMainImage = new PictureBox();
             pboxMainImage.Width = Width;
             pboxMainImage.Height = Height;
-            pboxMainImage.Image = (Image)mainImage;
+            //pboxMainImage.Image = (Image)mainImage;
             Controls.Add(pboxMainImage);
 
             //bottom layer image, custom image by user
-            Image backImage = Properties.Resources.backImage;
+            //Image backImage = Properties.Resources.backImage;
             PictureBox pboxBackImage = new PictureBox();
             pboxBackImage.Width = Width;
             pboxBackImage.Height = Height;
             pboxBackImage.Location = new Point(this.Location.X, this.Location.Y);
             
-            pboxBackImage.Image = (Image)backImage;
+            //pboxBackImage.Image = (Image)backImage;
             Controls.Add(pboxBackImage);
 
             SetTime();
