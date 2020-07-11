@@ -4,7 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ApplicationIcon>ico.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
+    <Win32Resource />
   </PropertyGroup>
 
   <ItemGroup>
