@@ -26,6 +26,8 @@ Application in actual stacks images in following order(transaxial view) also rep
 3. Background image
 4. Form(Canvas)
 
-<img src="layer.png" />
+**************************************************************************************
+<img src="layer.png" style="display: block; margin-left: auto; margin-right: auto;" />
+**************************************************************************************
 
 Any improvements are highly appreciated ☺
