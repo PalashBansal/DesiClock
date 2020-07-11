@@ -19,10 +19,12 @@ namespace DesiClock
         {
             InitializeComponent();
             ///Initialize form properties
-            //this.FormBorderStyle = FormBorderStyle.None;
-            this.Text = "Desi Clock";
+            this.FormBorderStyle = FormBorderStyle.None;
             this.Icon = Properties.Resources.ico;
             this.StartPosition = FormStartPosition.WindowsDefaultBounds;
+            BackColor = Color.Lime;// to be tested using red foreground image
+            TransparencyKey = Color.Lime;
+            //BackgroundImage = myImage;
 
             ///initialize all FIX parameters to default values
 
