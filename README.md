@@ -36,3 +36,11 @@ Application in actual stacks images in following order(transaxial view) also rep
 **************************************************************************************
 
 Any improvements are highly appreciated ☺
+
+SUPPORT:
+
+If you liked the app and would like to grab me a coffee-
+
+Bitcoin(BTC) - 331RPAL7LsAjL2BzUKDgHsixQWepMbfchX
+
+Paypal - palash.bansal20@gmail.com
