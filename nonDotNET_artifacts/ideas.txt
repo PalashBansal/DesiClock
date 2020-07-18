@@ -3,6 +3,8 @@ open form from last position
 draggable form
 hand cursor
 run at startup
+removed form border
+transparent background form
 clock hover tooltip text- ("dophar ke" + "pone paanch" + "baje hain")
 
 define new layout control to user
